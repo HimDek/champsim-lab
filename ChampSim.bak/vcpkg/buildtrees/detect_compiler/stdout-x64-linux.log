@@ -1,0 +1,38 @@
+-- Configuring x64-linux-rel
+-- The C compiler identification is GNU 16.2.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- The CXX compiler identification is GNU 16.2.1
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/hide/ACALab/Shared/champsim-lab/ChampSim/vcpkg/buildtrees/detect_compiler/x64-linux-rel
+
+#COMPILER_HASH#aaa86fc57b29af871e5c543f20b1718e69b40c45
+#COMPILER_C_HASH#6267f6f4762ada70c0673373ed147f57370febfb
+#COMPILER_C_VERSION#16.2.1
+#COMPILER_C_ID#GNU
+#COMPILER_C_PATH#/usr/bin/cc
+#COMPILER_CXX_HASH#9d414c8dcf6083e981e5e7130b8a4f414533c815
+#COMPILER_CXX_VERSION#16.2.1
+#COMPILER_CXX_ID#GNU
+#COMPILER_CXX_PATH#/usr/bin/c++
+CMake Warning (unused-cli):
+  Manually-specified variables were not used by the project:
+
+    BUILD_SHARED_LIBS
+    CMAKE_INSTALL_BINDIR
+    CMAKE_INSTALL_LIBDIR
+    VCPKG_PLATFORM_TOOLSET
+    VCPKG_SET_CHARSET_FLAG
+    _VCPKG_ROOT_DIR
+
+
+

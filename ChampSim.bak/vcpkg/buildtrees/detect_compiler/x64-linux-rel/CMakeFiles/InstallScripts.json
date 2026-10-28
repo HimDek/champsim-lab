@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/hide/ACALab/Shared/champsim-lab/ChampSim/vcpkg/buildtrees/detect_compiler/x64-linux-rel/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
