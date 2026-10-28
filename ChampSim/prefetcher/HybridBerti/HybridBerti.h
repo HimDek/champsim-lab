@@ -233,9 +233,9 @@ private:
   bertigo::Filter filter;
 
   // sBerti: page-local AMPM access maps.
-  static constexpr int AMPM_SETS = 64;
-  static constexpr int AMPM_WAYS = 4;
-  static constexpr int AMPM_MAX_STRIDE = 8;
+  static constexpr int AMPM_SETS = 1;
+  static constexpr int AMPM_WAYS = 128;
+  static constexpr int AMPM_MAX_STRIDE = 16;
   struct AMPMEntry {
     uint64_t page_tag = 0;
     uint64_t access_map = 0;

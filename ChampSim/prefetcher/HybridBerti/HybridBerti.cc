@@ -1112,7 +1112,7 @@ uint32_t HybridBerti::prefetcher_cache_operate(champsim::address address, champs
   // They share BertiGo's filter and latency-aware issue path to suppress duplicates.
   ampm_operate(addr, ip, current_cycle, metadata_in);
   smart_stride_operate(addr, ip, current_cycle, metadata_in);
-  global_berti_operate(addr, ip, current_cycle, metadata_in);
+  // global_berti_operate(addr, ip, current_cycle, metadata_in);
 
   // Update PC history for PC_Path signature
   for (int i = PC_PATH_HISTORY_SIZE - 1; i > 0; i--) {
