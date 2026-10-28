@@ -1,0 +1,8 @@
+ChampSim/bin/champsim --warmup-instructions 40000000 --simulation-instructions 200000000 --json results/llama-gemv.json traces/llama-gemv.champsimtrace.xz | tee results/llama-gemv.txt
+ChampSim/bin/champsim-ip-stride --warmup-instructions 40000000 --simulation-instructions 200000000 --json results/llama-gemv-ip-stride.json traces/llama-gemv.champsimtrace.xz | tee results/llama-gemv-ip-stride.txt
+ChampSim/bin/champsim-next-line --warmup-instructions 40000000 --simulation-instructions 200000000 --json results/llama-gemv-next-line.json traces/llama-gemv.champsimtrace.xz | tee results/llama-gemv-next-line.txt
+ChampSim/bin/champsim-va-ampm-lite --warmup-instructions 40000000 --simulation-instructions 200000000 --json results/llama-gemv-va-ampm-lite.json traces/llama-gemv.champsimtrace.xz | tee results/llama-gemv-va-ampm-lite.txt
+ChampSim/bin/champsim-berti-go --warmup-instructions 40000000 --simulation-instructions 200000000 --json results/llama-gemv-berti-go.json traces/llama-gemv.champsimtrace.xz | tee results/llama-gemv-berti-go.txt
+ChampSim/bin/champsim-gberti --warmup-instructions 40000000 --simulation-instructions 200000000 --json results/llama-gemv-gberti.json traces/llama-gemv.champsimtrace.xz | tee results/llama-gemv-gberti.txt
+ChampSim/bin/champsim-sberti --warmup-instructions 40000000 --simulation-instructions 200000000 --json results/llama-gemv-sberti.json traces/llama-gemv.champsimtrace.xz | tee results/llama-gemv-sberti.txt
+ChampSim/bin/champsim-ampm-berti --warmup-instructions 40000000 --simulation-instructions 200000000 --json results/llama-gemv-ampm-berti.json traces/llama-gemv.champsimtrace.xz | tee results/llama-gemv-ampm-berti.txt
