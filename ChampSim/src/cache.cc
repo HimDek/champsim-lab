@@ -21,6 +21,7 @@
 #include <cmath>
 #include <iomanip>
 #include <numeric>
+#include <unordered_map>
 #include <fmt/core.h>
 
 #include "bandwidth.h"
@@ -38,7 +39,7 @@ CACHE::CACHE(CACHE&& other)
       upper_levels(std::move(other.upper_levels)), lower_level(std::move(other.lower_level)), lower_translate(std::move(other.lower_translate)),
 
       cpu(other.cpu), NAME(std::move(other.NAME)), NUM_SET(other.NUM_SET), NUM_WAY(other.NUM_WAY), MSHR_SIZE(other.MSHR_SIZE), PQ_SIZE(other.PQ_SIZE),
-      HIT_LATENCY(other.HIT_LATENCY), FILL_LATENCY(other.FILL_LATENCY), OFFSET_BITS(other.OFFSET_BITS), block(std::move(other.block)), MAX_TAG(other.MAX_TAG),
+      HIT_LATENCY(other.HIT_LATENCY), FILL_LATENCY(other.FILL_LATENCY), OFFSET_BITS(other.OFFSET_BITS), infinite_mode(other.infinite_mode), block(std::move(other.block)), infinite_blocks(std::move(other.infinite_blocks)), MAX_TAG(other.MAX_TAG),
       MAX_FILL(other.MAX_FILL), prefetch_as_load(other.prefetch_as_load), match_offset_bits(other.match_offset_bits), virtual_prefetch(other.virtual_prefetch),
       pref_activate_mask(std::move(other.pref_activate_mask)),
 
@@ -72,7 +73,9 @@ auto CACHE::operator=(CACHE&& other) -> CACHE&
   this->FILL_LATENCY = other.FILL_LATENCY;
   this->OFFSET_BITS = other.OFFSET_BITS;
   ;
+  this->infinite_mode = other.infinite_mode;
   this->block = std::move(other.block);
+  this->infinite_blocks = std::move(other.infinite_blocks);
   this->MAX_TAG = other.MAX_TAG;
   this->MAX_FILL = other.MAX_FILL;
   this->prefetch_as_load = other.prefetch_as_load;
@@ -170,65 +173,88 @@ bool CACHE::handle_fill(const fill_type& fill)
 {
   cpu = fill.cpu;
 
-  // find victim
-  auto [set_begin, set_end] = get_set_span(fill.address);
-  auto way = std::find_if_not(set_begin, set_end, [](auto x) { return x.valid; });
-  if (way == set_end) {
-    way = std::next(set_begin, impl_find_victim(fill.cpu, fill.instr_id, get_set_index(fill.address), &*set_begin, fill.ip, fill.address, fill.type));
-  }
-  assert(set_begin <= way);
-  assert(way <= set_end);
-  assert(way != set_end || fill.type != access_type::WRITE); // Writes may not bypass
-  const auto way_idx = std::distance(set_begin, way);        // cast protected by earlier assertion
+  const auto set_idx = get_set_index(fill.address);
+  uint32_t metadata_thru = fill.data_promise->pf_metadata;
 
-  if constexpr (champsim::debug_print) {
-    fmt::print("[{}] {} instr_id: {} address: {} v_address: {} set: {} way: {} type: {} prefetch_metadata: {} cycle_enqueued: {} cycle: {}\n", NAME, __func__,
-               fill.instr_id, fill.address, fill.v_address, get_set_index(fill.address), way_idx, access_type_names.at(champsim::to_underlying(fill.type)),
-               fill.data_promise->pf_metadata, (fill.time_enqueued.time_since_epoch()) / clock_period, (current_time.time_since_epoch()) / clock_period);
-  }
+  if (infinite_mode) {
+    const auto key = fill.address.slice_upper(OFFSET_BITS).to<uint64_t>();
+    auto existing = infinite_blocks.find(key);
+    if (existing != infinite_blocks.end() && existing->second.prefetch)
+      ++sim_stats.pf_useless;
 
-  if (way != set_end && way->valid && way->dirty) {
-    request_type writeback_packet;
-
-    writeback_packet.cpu = fill.cpu;
-    writeback_packet.address = way->address;
-    writeback_packet.data = way->data;
-    writeback_packet.instr_id = fill.instr_id;
-    writeback_packet.ip = champsim::address{};
-    writeback_packet.type = access_type::WRITE;
-    writeback_packet.pf_metadata = way->pf_metadata;
-    writeback_packet.response_requested = false;
+    metadata_thru = impl_prefetcher_cache_fill(module_address(fill), set_idx, 0, (fill.type == access_type::PREFETCH), {},
+                                               fill.data_promise->pf_metadata);
+    impl_replacement_cache_fill(fill.cpu, set_idx, 0, module_address(fill), fill.ip, {}, fill.type);
+    infinite_blocks.insert_or_assign(key, fill_block(fill, metadata_thru));
+    if (fill.type == access_type::PREFETCH)
+      ++sim_stats.pf_fill;
 
     if constexpr (champsim::debug_print) {
-      fmt::print("[{}] {} evict address: {} v_address: {} prefetch_metadata: {}\n", NAME, __func__, writeback_packet.address, writeback_packet.v_address,
-                 fill.data_promise->pf_metadata);
+      fmt::print("[{}] {} instr_id: {} address: {} v_address: {} set: {} way: 0 type: {} prefetch_metadata: {} cycle_enqueued: {} cycle: {}\n",
+                 NAME, __func__, fill.instr_id, fill.address, fill.v_address, set_idx,
+                 access_type_names.at(champsim::to_underlying(fill.type)), fill.data_promise->pf_metadata,
+                 (fill.time_enqueued.time_since_epoch()) / clock_period, (current_time.time_since_epoch()) / clock_period);
+    }
+  } else {
+    // find victim
+    auto [set_begin, set_end] = get_set_span(fill.address);
+    auto way = std::find_if_not(set_begin, set_end, [](auto x) { return x.valid; });
+    if (way == set_end) {
+      way = std::next(set_begin, impl_find_victim(fill.cpu, fill.instr_id, set_idx, &*set_begin, fill.ip, fill.address, fill.type));
+    }
+    assert(set_begin <= way);
+    assert(way <= set_end);
+    assert(way != set_end || fill.type != access_type::WRITE); // Writes may not bypass
+    const auto way_idx = std::distance(set_begin, way);
+
+    if constexpr (champsim::debug_print) {
+      fmt::print("[{}] {} instr_id: {} address: {} v_address: {} set: {} way: {} type: {} prefetch_metadata: {} cycle_enqueued: {} cycle: {}\n",
+                 NAME, __func__, fill.instr_id, fill.address, fill.v_address, set_idx, way_idx,
+                 access_type_names.at(champsim::to_underlying(fill.type)), fill.data_promise->pf_metadata,
+                 (fill.time_enqueued.time_since_epoch()) / clock_period, (current_time.time_since_epoch()) / clock_period);
     }
 
-    auto success = lower_level->add_wq(writeback_packet);
-    if (!success) {
-      return false;
+    if (way != set_end && way->valid && way->dirty) {
+      request_type writeback_packet;
+
+      writeback_packet.cpu = fill.cpu;
+      writeback_packet.address = way->address;
+      writeback_packet.data = way->data;
+      writeback_packet.instr_id = fill.instr_id;
+      writeback_packet.ip = champsim::address{};
+      writeback_packet.type = access_type::WRITE;
+      writeback_packet.pf_metadata = way->pf_metadata;
+      writeback_packet.response_requested = false;
+
+      if constexpr (champsim::debug_print) {
+        fmt::print("[{}] {} evict address: {} v_address: {} prefetch_metadata: {}\n", NAME, __func__, writeback_packet.address,
+                   writeback_packet.v_address, fill.data_promise->pf_metadata);
+      }
+
+      auto success = lower_level->add_wq(writeback_packet);
+      if (!success) {
+        return false;
+      }
     }
-  }
 
-  champsim::address evicting_address{};
-  if (way != set_end && way->valid) {
-    evicting_address = module_address(*way);
-  }
-
-  auto metadata_thru = impl_prefetcher_cache_fill(module_address(fill), get_set_index(fill.address), way_idx, (fill.type == access_type::PREFETCH),
-                                                  evicting_address, fill.data_promise->pf_metadata);
-  impl_replacement_cache_fill(fill.cpu, get_set_index(fill.address), way_idx, module_address(fill), fill.ip, evicting_address, fill.type);
-
-  if (way != set_end) {
-    if (way->valid && way->prefetch) {
-      ++sim_stats.pf_useless;
+    champsim::address evicting_address{};
+    if (way != set_end && way->valid) {
+      evicting_address = module_address(*way);
     }
 
-    if (fill.type == access_type::PREFETCH) {
-      ++sim_stats.pf_fill;
-    }
+    metadata_thru = impl_prefetcher_cache_fill(module_address(fill), set_idx, way_idx, (fill.type == access_type::PREFETCH),
+                                               evicting_address, fill.data_promise->pf_metadata);
+    impl_replacement_cache_fill(fill.cpu, set_idx, way_idx, module_address(fill), fill.ip, evicting_address, fill.type);
 
-    *way = fill_block(fill, metadata_thru);
+    if (way != set_end) {
+      if (way->valid && way->prefetch) {
+        ++sim_stats.pf_useless;
+      }
+
+      *way = fill_block(fill, metadata_thru);
+      if (fill.type == access_type::PREFETCH)
+        ++sim_stats.pf_fill;
+    }
   }
 
   // COLLECT STATS
@@ -248,16 +274,34 @@ bool CACHE::try_hit(const tag_lookup_type& handle_pkt)
 {
   cpu = handle_pkt.cpu;
 
-  // access cache
-  auto [set_begin, set_end] = get_set_span(handle_pkt.address);
-  auto way = std::find_if(set_begin, set_end, [matcher = matches_address(handle_pkt.address)](const auto& x) { return x.valid && matcher(x); });
-  const auto hit = (way != set_end);
+  const auto set_idx = get_set_index(handle_pkt.address);
+  BLOCK* way = nullptr;
+  long way_idx = NUM_WAY;
+
+  if (infinite_mode) {
+    const auto key = handle_pkt.address.slice_upper(OFFSET_BITS).to<uint64_t>();
+    auto found = infinite_blocks.find(key);
+    if (found != infinite_blocks.end()) {
+      way = &found->second;
+      way_idx = 0;
+    }
+  } else {
+    auto [set_begin, set_end] = get_set_span(handle_pkt.address);
+    auto found = std::find_if(set_begin, set_end, [matcher = matches_address(handle_pkt.address)](const auto& x) { return x.valid && matcher(x); });
+    if (found != set_end) {
+      way = &*found;
+      way_idx = std::distance(set_begin, found);
+    }
+  }
+
+  const auto hit = (way != nullptr);
   const auto useful_prefetch = (hit && way->prefetch && !handle_pkt.prefetch_from_this);
 
   if constexpr (champsim::debug_print) {
-    fmt::print("[{}] {} instr_id: {} address: {} v_address: {} data: {} set: {} way: {} ({}) type: {} cycle: {}\n", NAME, __func__, handle_pkt.instr_id,
-               handle_pkt.address, handle_pkt.v_address, handle_pkt.data, get_set_index(handle_pkt.address), std::distance(set_begin, way),
-               hit ? "HIT" : "MISS", access_type_names.at(champsim::to_underlying(handle_pkt.type)), current_time.time_since_epoch() / clock_period);
+    fmt::print("[{}] {} instr_id: {} address: {} v_address: {} data: {} set: {} way: {} ({}) type: {} cycle: {}\n",
+               NAME, __func__, handle_pkt.instr_id, handle_pkt.address, handle_pkt.v_address, handle_pkt.data, set_idx, way_idx,
+               hit ? "HIT" : "MISS", access_type_names.at(champsim::to_underlying(handle_pkt.type)),
+               current_time.time_since_epoch() / clock_period);
   }
 
   auto metadata_thru = handle_pkt.pf_metadata;
@@ -266,9 +310,7 @@ bool CACHE::try_hit(const tag_lookup_type& handle_pkt)
   }
 
   // update replacement policy
-  const auto way_idx = std::distance(set_begin, way);
-  impl_update_replacement_state(handle_pkt.cpu, get_set_index(handle_pkt.address), way_idx, module_address(handle_pkt), handle_pkt.ip, {}, handle_pkt.type,
-                                hit);
+  impl_update_replacement_state(handle_pkt.cpu, set_idx, way_idx, module_address(handle_pkt), handle_pkt.ip, {}, handle_pkt.type, hit);
 
   if (hit) {
     sim_stats.hits.increment(std::pair{handle_pkt.type, handle_pkt.cpu});
@@ -552,6 +594,10 @@ auto CACHE::get_set_span(champsim::address address) const -> std::pair<set_type:
 uint64_t CACHE::get_way(uint64_t address, uint64_t /*unused set index*/) const
 {
   champsim::address intern_addr{address};
+  if (infinite_mode) {
+    const auto key = intern_addr.slice_upper(OFFSET_BITS).to<uint64_t>();
+    return infinite_blocks.find(key) == infinite_blocks.end() ? NUM_WAY : 0;
+  }
   auto [begin, end] = get_set_span(intern_addr);
   return static_cast<uint64_t>(std::distance(begin, std::find_if(begin, end, matches_address(champsim::address{address}))));
 }
@@ -559,6 +605,15 @@ uint64_t CACHE::get_way(uint64_t address, uint64_t /*unused set index*/) const
 
 long CACHE::invalidate_entry(champsim::address inval_addr)
 {
+  if (infinite_mode) {
+    const auto key = inval_addr.slice_upper(OFFSET_BITS).to<uint64_t>();
+    auto found = infinite_blocks.find(key);
+    if (found == infinite_blocks.end())
+      return NUM_WAY;
+    infinite_blocks.erase(found);
+    return 0;
+  }
+
   auto [begin, end] = get_set_span(inval_addr);
   auto inv_way = std::find_if(begin, end, matches_address(inval_addr));
 

@@ -1,0 +1,2576 @@
+[VMEM] WARNING: physical memory size is smaller than virtual memory size.
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+Warmup Instructions: 40000000
+Simulation Instructions: 200000000
+Number of CPUs: 1
+Page size: 4096
+
+[LLC] Bingo+ Initialized. Total State: 60 kiB
+[cpu0_L1D] Berti+ Initialized. Total State: 11 kiB
+[cpu0_L2C] SPPAM Initialized. Total State: 118 kiB
+Off-chip DRAM Size: 16 GiB Channels: 1 Width: 64-bit Data Rate: 3205 MT/s
+[BTB] WARNING: target of return is a lower address than the corresponding call. This is usually a problem with your trace.
+[BTB] WARNING: target of return is a lower address than the corresponding call. This is usually a problem with your trace.
+[BTB] WARNING: target of return is a lower address than the corresponding call. This is usually a problem with your trace.
+[BTB] WARNING: target of return is a lower address than the corresponding call. This is usually a problem with your trace.
+[BTB] WARNING: target of return is a lower address than the corresponding call. This is usually a problem with your trace.
+[BTB] WARNING: target of return is a lower address than the corresponding call. This is usually a problem with your trace.
+[BTB] WARNING: target of return is a lower address than the corresponding call. This is usually a problem with your trace.
+[BTB] WARNING: target of return is a lower address than the corresponding call. This is usually a problem with your trace.
+[BTB] WARNING: target of return is a lower address than the corresponding call. This is usually a problem with your trace.
+[BTB] WARNING: target of return is a lower address than the corresponding call. This is usually a problem with your trace.
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+Heartbeat CPU 0 instructions: 10000000 cycles: 3410870 heartbeat IPC: 2.932 cumulative IPC: 2.932 (Simulation time: 00 hr 00 min 26 sec)
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+Heartbeat CPU 0 instructions: 20000004 cycles: 6823818 heartbeat IPC: 2.93 cumulative IPC: 2.931 (Simulation time: 00 hr 00 min 53 sec)
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+Heartbeat CPU 0 instructions: 30000008 cycles: 9763252 heartbeat IPC: 3.402 cumulative IPC: 3.073 (Simulation time: 00 hr 01 min 20 sec)
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+Warmup finished CPU 0 instructions: 40000003 cycles: 12543407 cumulative IPC: 3.189 (Simulation time: 00 hr 01 min 46 sec)
+Warmup complete CPU 0 instructions: 40000003 cycles: 12543407 cumulative IPC: 3.189 (Simulation time: 00 hr 01 min 46 sec)
+[cpu0_L2C] SPPAM Resetting internal stats
+Heartbeat CPU 0 instructions: 40000011 cycles: 12543409 heartbeat IPC: 3.597 cumulative IPC: 4 (Simulation time: 00 hr 01 min 46 sec)
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+Heartbeat CPU 0 instructions: 50000012 cycles: 21539990 heartbeat IPC: 1.112 cumulative IPC: 1.112 (Simulation time: 00 hr 02 min 46 sec)
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+Heartbeat CPU 0 instructions: 60000013 cycles: 29150191 heartbeat IPC: 1.314 cumulative IPC: 1.204 (Simulation time: 00 hr 03 min 45 sec)
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+Heartbeat CPU 0 instructions: 70000016 cycles: 37073016 heartbeat IPC: 1.262 cumulative IPC: 1.223 (Simulation time: 00 hr 04 min 43 sec)
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+Heartbeat CPU 0 instructions: 80000016 cycles: 45143578 heartbeat IPC: 1.239 cumulative IPC: 1.227 (Simulation time: 00 hr 05 min 41 sec)
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+Heartbeat CPU 0 instructions: 90000017 cycles: 53011942 heartbeat IPC: 1.271 cumulative IPC: 1.236 (Simulation time: 00 hr 06 min 40 sec)
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+Heartbeat CPU 0 instructions: 100000018 cycles: 60969748 heartbeat IPC: 1.257 cumulative IPC: 1.239 (Simulation time: 00 hr 07 min 38 sec)
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+Heartbeat CPU 0 instructions: 110000019 cycles: 68830986 heartbeat IPC: 1.272 cumulative IPC: 1.244 (Simulation time: 00 hr 08 min 35 sec)
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+Heartbeat CPU 0 instructions: 120000023 cycles: 76690910 heartbeat IPC: 1.272 cumulative IPC: 1.247 (Simulation time: 00 hr 09 min 34 sec)
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+Heartbeat CPU 0 instructions: 130000027 cycles: 84594780 heartbeat IPC: 1.265 cumulative IPC: 1.249 (Simulation time: 00 hr 10 min 33 sec)
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+Heartbeat CPU 0 instructions: 140000029 cycles: 92386099 heartbeat IPC: 1.283 cumulative IPC: 1.252 (Simulation time: 00 hr 11 min 30 sec)
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+Heartbeat CPU 0 instructions: 150000031 cycles: 100018009 heartbeat IPC: 1.31 cumulative IPC: 1.258 (Simulation time: 00 hr 12 min 28 sec)
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+Heartbeat CPU 0 instructions: 160000032 cycles: 108055706 heartbeat IPC: 1.244 cumulative IPC: 1.256 (Simulation time: 00 hr 13 min 27 sec)
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+Heartbeat CPU 0 instructions: 170000034 cycles: 115589689 heartbeat IPC: 1.327 cumulative IPC: 1.262 (Simulation time: 00 hr 14 min 27 sec)
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+Heartbeat CPU 0 instructions: 180000034 cycles: 123100827 heartbeat IPC: 1.331 cumulative IPC: 1.266 (Simulation time: 00 hr 15 min 25 sec)
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+Heartbeat CPU 0 instructions: 190000037 cycles: 130656059 heartbeat IPC: 1.324 cumulative IPC: 1.27 (Simulation time: 00 hr 16 min 23 sec)
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+Heartbeat CPU 0 instructions: 200000040 cycles: 138172953 heartbeat IPC: 1.33 cumulative IPC: 1.274 (Simulation time: 00 hr 17 min 21 sec)
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+Heartbeat CPU 0 instructions: 210000042 cycles: 145672731 heartbeat IPC: 1.333 cumulative IPC: 1.277 (Simulation time: 00 hr 18 min 21 sec)
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+Heartbeat CPU 0 instructions: 220000044 cycles: 153262843 heartbeat IPC: 1.318 cumulative IPC: 1.279 (Simulation time: 00 hr 19 min 19 sec)
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+Heartbeat CPU 0 instructions: 230000047 cycles: 160752067 heartbeat IPC: 1.335 cumulative IPC: 1.282 (Simulation time: 00 hr 20 min 17 sec)
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+[cpu0_L2C] SPPAM
+	Duel Counter: 128
+	Bandwidth utilization: 93.75 - 100%
+	LLC Miss rate (Bingo+): 93.75 - 100% Misses: 0 Hits: 0
+	Global usefulness: 0 - 6.25% Useful: 0 Useless: 0
+	Last Prefetch Degree: 0
+	Regions Found: 0 Regions Not Found: 0 Region Lifespan: 0 Pattern Usefulness Enabled: false
+	LLC Unfairness: 15
+Simulation finished CPU 0 instructions: 200000003 cycles: 155800765 cumulative IPC: 1.284 (Simulation time: 00 hr 21 min 15 sec)
+Simulation complete CPU 0 instructions: 200000003 cycles: 155800765 cumulative IPC: 1.284 (Simulation time: 00 hr 21 min 15 sec)
+
+ChampSim completed all CPUs
+
+=== Simulation ===
+CPU 0 runs traces/llama-gemv.champsimtrace.xz
+
+Region of Interest Statistics
+
+CPU 0 cumulative IPC: 1.284 instructions: 200000003 cycles: 155800765
+CPU 0 Branch Prediction Accuracy: 90.97% MPKI: 5.671 Average ROB Occupancy at Mispredict: 81
+Branch type MPKI
+BRANCH_DIRECT_JUMP: 0.04478
+BRANCH_INDIRECT: 0.01205
+BRANCH_CONDITIONAL: 5.485
+BRANCH_DIRECT_CALL: 0.04469
+BRANCH_INDIRECT_CALL: 0.008245
+BRANCH_RETURN: 0.07596
+
+cpu0->LLC TOTAL        ACCESS:    6673874 HIT:      94974 MISS:    6578900 MISS_MERGE:      48079
+cpu0->LLC LOAD         ACCESS:     501468 HIT:      35729 MISS:     465739 MISS_MERGE:      16661
+cpu0->LLC RFO          ACCESS:      35874 HIT:       7120 MISS:      28754 MISS_MERGE:          0
+cpu0->LLC PREFETCH     ACCESS:    6085683 HIT:      13119 MISS:    6072564 MISS_MERGE:      31418
+cpu0->LLC WRITE        ACCESS:      39720 HIT:      38695 MISS:       1025 MISS_MERGE:          0
+cpu0->LLC TRANSLATION  ACCESS:      11129 HIT:        311 MISS:      10818 MISS_MERGE:          0
+cpu0->LLC PREFETCH REQUESTED:      56608 ISSUED:      56608 USEFUL:      21589 USELESS:       1001
+cpu0->LLC AVERAGE MISS LATENCY: 212.6 cycles
+cpu0->cpu0_DTLB TOTAL        ACCESS:   45977983 HIT:   45600141 MISS:     377842 MISS_MERGE:     289137
+cpu0->cpu0_DTLB LOAD         ACCESS:   45977983 HIT:   45600141 MISS:     377842 MISS_MERGE:     289137
+cpu0->cpu0_DTLB RFO          ACCESS:          0 HIT:          0 MISS:          0 MISS_MERGE:          0
+cpu0->cpu0_DTLB PREFETCH     ACCESS:          0 HIT:          0 MISS:          0 MISS_MERGE:          0
+cpu0->cpu0_DTLB WRITE        ACCESS:          0 HIT:          0 MISS:          0 MISS_MERGE:          0
+cpu0->cpu0_DTLB TRANSLATION  ACCESS:          0 HIT:          0 MISS:          0 MISS_MERGE:          0
+cpu0->cpu0_DTLB PREFETCH REQUESTED:          0 ISSUED:          0 USEFUL:          0 USELESS:          0
+cpu0->cpu0_DTLB AVERAGE MISS LATENCY: 106.3 cycles
+cpu0->cpu0_ITLB TOTAL        ACCESS:    1581380 HIT:    1569152 MISS:      12228 MISS_MERGE:       7113
+cpu0->cpu0_ITLB LOAD         ACCESS:    1581380 HIT:    1569152 MISS:      12228 MISS_MERGE:       7113
+cpu0->cpu0_ITLB RFO          ACCESS:          0 HIT:          0 MISS:          0 MISS_MERGE:          0
+cpu0->cpu0_ITLB PREFETCH     ACCESS:          0 HIT:          0 MISS:          0 MISS_MERGE:          0
+cpu0->cpu0_ITLB WRITE        ACCESS:          0 HIT:          0 MISS:          0 MISS_MERGE:          0
+cpu0->cpu0_ITLB TRANSLATION  ACCESS:          0 HIT:          0 MISS:          0 MISS_MERGE:          0
+cpu0->cpu0_ITLB PREFETCH REQUESTED:          0 ISSUED:          0 USEFUL:          0 USELESS:          0
+cpu0->cpu0_ITLB AVERAGE MISS LATENCY: 21.74 cycles
+cpu0->cpu0_L1D TOTAL        ACCESS:   74621794 HIT:   40237004 MISS:   34384790 MISS_MERGE:    4160319
+cpu0->cpu0_L1D LOAD         ACCESS:   42882805 HIT:   37133243 MISS:    5749562 MISS_MERGE:    4023746
+cpu0->cpu0_L1D RFO          ACCESS:          0 HIT:          0 MISS:          0 MISS_MERGE:          0
+cpu0->cpu0_L1D PREFETCH     ACCESS:   28486284 HIT:       1080 MISS:   28485204 MISS_MERGE:      37262
+cpu0->cpu0_L1D WRITE        ACCESS:    3095178 HIT:    2956479 MISS:     138699 MISS_MERGE:      99282
+cpu0->cpu0_L1D TRANSLATION  ACCESS:     157527 HIT:     146202 MISS:      11325 MISS_MERGE:         29
+cpu0->cpu0_L1D PREFETCH REQUESTED:   56373704 ISSUED:   28486278 USEFUL:    3316887 USELESS:     997166
+cpu0->cpu0_L1D AVERAGE MISS LATENCY: 72.76 cycles
+cpu0->cpu0_L1I TOTAL        ACCESS:    1581469 HIT:    1519901 MISS:      61568 MISS_MERGE:      25833
+cpu0->cpu0_L1I LOAD         ACCESS:    1581469 HIT:    1519901 MISS:      61568 MISS_MERGE:      25833
+cpu0->cpu0_L1I RFO          ACCESS:          0 HIT:          0 MISS:          0 MISS_MERGE:          0
+cpu0->cpu0_L1I PREFETCH     ACCESS:          0 HIT:          0 MISS:          0 MISS_MERGE:          0
+cpu0->cpu0_L1I WRITE        ACCESS:          0 HIT:          0 MISS:          0 MISS_MERGE:          0
+cpu0->cpu0_L1I TRANSLATION  ACCESS:          0 HIT:          0 MISS:          0 MISS_MERGE:          0
+cpu0->cpu0_L1I PREFETCH REQUESTED:          0 ISSUED:          0 USEFUL:          0 USELESS:          0
+cpu0->cpu0_L1I AVERAGE MISS LATENCY: 58.35 cycles
+cpu0->cpu0_L2C TOTAL        ACCESS:   30307479 HIT:    8131874 MISS:   22175605 MISS_MERGE:   15596700
+cpu0->cpu0_L2C LOAD         ACCESS:    1761551 HIT:    1148522 MISS:     613029 MISS_MERGE:     111561
+cpu0->cpu0_L2C RFO          ACCESS:      39417 HIT:       3540 MISS:      35877 MISS_MERGE:          3
+cpu0->cpu0_L2C PREFETCH     ACCESS:   28447938 HIT:    6933727 MISS:   21514211 MISS_MERGE:   15485136
+cpu0->cpu0_L2C WRITE        ACCESS:      47277 HIT:      45918 MISS:       1359 MISS_MERGE:          0
+cpu0->cpu0_L2C TRANSLATION  ACCESS:      11296 HIT:        167 MISS:      11129 MISS_MERGE:          0
+cpu0->cpu0_L2C PREFETCH REQUESTED:          0 ISSUED:          0 USEFUL:          0 USELESS:          0
+cpu0->cpu0_L2C AVERAGE MISS LATENCY: 189.7 cycles
+cpu0->cpu0_STLB TOTAL        ACCESS:      93820 HIT:      15231 MISS:      78589 MISS_MERGE:          0
+cpu0->cpu0_STLB LOAD         ACCESS:      93820 HIT:      15231 MISS:      78589 MISS_MERGE:          0
+cpu0->cpu0_STLB RFO          ACCESS:          0 HIT:          0 MISS:          0 MISS_MERGE:          0
+cpu0->cpu0_STLB PREFETCH     ACCESS:          0 HIT:          0 MISS:          0 MISS_MERGE:          0
+cpu0->cpu0_STLB WRITE        ACCESS:          0 HIT:          0 MISS:          0 MISS_MERGE:          0
+cpu0->cpu0_STLB TRANSLATION  ACCESS:          0 HIT:          0 MISS:          0 MISS_MERGE:          0
+cpu0->cpu0_STLB PREFETCH REQUESTED:          0 ISSUED:          0 USEFUL:          0 USELESS:          0
+cpu0->cpu0_STLB AVERAGE MISS LATENCY: 114.5 cycles
+
+DRAM Statistics
+
+Channel 0 RQ ROW_BUFFER_HIT:    3154404
+  ROW_BUFFER_MISS:    3374859
+  AVG DBUS CONGESTED CYCLE: 4.589
+Channel 0 WQ ROW_BUFFER_HIT:       5612
+  ROW_BUFFER_MISS:      26244
+  FULL:          0
+Channel 0 REFRESHES ISSUED:      12983
+[0 Bingo] PHT Access: 45523
+[0 Bingo] PHT Hit PC+Addr: 415
+[0 Bingo] PHT Hit PC+Offs: 44162
+[0 Bingo] PHT Miss: 946
+[0 Bingo] Prefetch PC+Addr: 0
+[0 Bingo] Prefetch PC+Offs: 0
+[0 Bingo] Useful PC+Addr: 0
+[0 Bingo] Useful PC+Offs: 0
+[0 Bingo] Useless PC+Addr: 0
+[0 Bingo] Useless PC+Offs: 0
+[0 Bingo] L1 Prefetch per Region: 10.4296
+[0 Bingo] L2 Prefetch per Region: 0
+[0 Bingo] No Prefetch per Region: 21.5704
+[0 Bingo] Number of Voters Mean: 14.7421
+[0 Bingo] Number of Voters SD: 1.60235
+BERTI TO_L1: 17708191 TO_L2: 56290975 TO_L2_BC_MSHR: 998064
+DETECTED ALIASES: 0
+BERTI AVG_LAT: 103.808 NUM_TRACK_LATENCY: 7094006 NUM_CANT_TRACK_LATENCY: 2
+BERTI CROSS_PAGE 14391473 NO_CROSS_PAGE: 59607693
+BERTI FOUND_BERTI: 23827693 NO_FOUND_BERTI: 27282609
+BERTI AVERAGE_ISSUED: 2.16525
+[cpu0_L2C] SPPAM Total Prefetches Issued: 0 Filtered: 0 Total Lookaheads: 0 To LLC: 0 Filtered: 0
+	Average Lookahead Depth: 1 Dropped: 900338177
+	Regions Scraped: 30072745 Shadow-filled fronts: 3882567 Shadow-filled backs: 25661485 Page Crossings: 0
+	Shadow-filled Pattern fronts: 130769842 backs: 792751160
+Current Patterns in Pattern Table:
+Patterns of size 6:
+Pattern: 1 Prediction: 111111 Triggers: 7802808 Usefulness: 0
+Prediction: 111101 Confidence: 0
+Prediction: 11111 Confidence: 0
+Prediction: 110110 Confidence: 15
+Prediction: 110000 Confidence: 1
+Prediction: 111000 Confidence: 0
+Prediction: 110111 Confidence: 0
+Prediction: 11000 Confidence: 0
+Prediction: 100 Confidence: 0
+Prediction: 11100 Confidence: 0
+Prediction: 100100 Confidence: 0
+Prediction: 110100 Confidence: 6
+Prediction: 0 Confidence: 3
+Prediction: 111111 Confidence: 67
+Prediction: 111110 Confidence: 8
+Prediction: 111100 Confidence: 0
+Prediction: 100000 Confidence: 2
+Pattern: 10 Prediction: 0 Triggers: 1230157 Usefulness: 0
+Prediction: 111100 Confidence: 3
+Prediction: 1000 Confidence: 13
+Prediction: 11111 Confidence: 0
+Prediction: 1111 Confidence: 0
+Prediction: 110000 Confidence: 0
+Prediction: 1100 Confidence: 0
+Prediction: 1 Confidence: 1
+Prediction: 111111 Confidence: 5
+Prediction: 100000 Confidence: 2
+Prediction: 100111 Confidence: 0
+Prediction: 101110 Confidence: 0
+Prediction: 111000 Confidence: 1
+Prediction: 101000 Confidence: 0
+Prediction: 101111 Confidence: 0
+Prediction: 0 Confidence: 72
+Prediction: 10000 Confidence: 0
+Pattern: 11 Prediction: 111111 Triggers: 7785717 Usefulness: 0
+Prediction: 110110 Confidence: 14
+Prediction: 110100 Confidence: 11
+Prediction: 101001 Confidence: 7
+Prediction: 101101 Confidence: 8
+Prediction: 111101 Confidence: 7
+Prediction: 111100 Confidence: 12
+Prediction: 101100 Confidence: 0
+Prediction: 0 Confidence: 4
+Prediction: 100000 Confidence: 2
+Prediction: 111000 Confidence: 0
+Prediction: 101110 Confidence: 0
+Prediction: 101111 Confidence: 0
+Prediction: 111110 Confidence: 6
+Prediction: 111111 Confidence: 65
+Prediction: 110000 Confidence: 1
+Prediction: 111010 Confidence: 0
+Pattern: 100 Prediction: 0 Triggers: 1290195 Usefulness: 0
+Prediction: 111100 Confidence: 0
+Prediction: 0 Confidence: 98
+Prediction: 100010 Confidence: 0
+Prediction: 111110 Confidence: 0
+Prediction: 10000 Confidence: 4
+Prediction: 1000 Confidence: 0
+Prediction: 101000 Confidence: 0
+Prediction: 100011 Confidence: 0
+Prediction: 100111 Confidence: 0
+Prediction: 110111 Confidence: 0
+Prediction: 10 Confidence: 3
+Prediction: 11111 Confidence: 0
+Prediction: 100000 Confidence: 0
+Prediction: 111111 Confidence: 3
+Prediction: 110010 Confidence: 0
+Prediction: 1110 Confidence: 0
+Pattern: 101 Prediction: 0 Triggers: 360323 Usefulness: 0
+Prediction: 11000 Confidence: 6
+Prediction: 100 Confidence: 41
+Prediction: 1111 Confidence: 3
+Prediction: 11100 Confidence: 6
+Prediction: 101111 Confidence: 3
+Prediction: 111100 Confidence: 6
+Prediction: 111000 Confidence: 18
+Prediction: 110001 Confidence: 1
+Prediction: 111001 Confidence: 1
+Prediction: 111101 Confidence: 1
+Prediction: 0 Confidence: 79
+Prediction: 111110 Confidence: 9
+Prediction: 111111 Confidence: 29
+Prediction: 10110 Confidence: 1
+Prediction: 100000 Confidence: 19
+Prediction: 110000 Confidence: 23
+Pattern: 110 Prediction: 0 Triggers: 1526875 Usefulness: 0
+Prediction: 11000 Confidence: 1
+Prediction: 0 Confidence: 65
+Prediction: 1111 Confidence: 1
+Prediction: 111010 Confidence: 0
+Prediction: 111000 Confidence: 0
+Prediction: 111011 Confidence: 1
+Prediction: 100000 Confidence: 3
+Prediction: 110000 Confidence: 0
+Prediction: 101000 Confidence: 3
+Prediction: 111111 Confidence: 4
+Prediction: 11111 Confidence: 2
+Prediction: 1 Confidence: 2
+Prediction: 10000 Confidence: 1
+Prediction: 110111 Confidence: 6
+Prediction: 11 Confidence: 2
+Prediction: 1000 Confidence: 0
+Pattern: 111 Prediction: 111111 Triggers: 7505504 Usefulness: 0
+Prediction: 101100 Confidence: 1
+Prediction: 110110 Confidence: 9
+Prediction: 10011 Confidence: 7
+Prediction: 11011 Confidence: 8
+Prediction: 111100 Confidence: 0
+Prediction: 111011 Confidence: 7
+Prediction: 11100 Confidence: 0
+Prediction: 11110 Confidence: 0
+Prediction: 110100 Confidence: 2
+Prediction: 111000 Confidence: 0
+Prediction: 100000 Confidence: 1
+Prediction: 111110 Confidence: 4
+Prediction: 111010 Confidence: 0
+Prediction: 111111 Confidence: 56
+Prediction: 0 Confidence: 2
+Prediction: 110000 Confidence: 1
+Pattern: 1000 Prediction: 0 Triggers: 1662011 Usefulness: 0
+Prediction: 0 Confidence: 95
+Prediction: 110000 Confidence: 13
+Prediction: 110111 Confidence: 0
+Prediction: 10000 Confidence: 0
+Prediction: 1110 Confidence: 0
+Prediction: 1111 Confidence: 0
+Prediction: 11110 Confidence: 0
+Prediction: 110011 Confidence: 0
+Prediction: 11010 Confidence: 0
+Prediction: 100000 Confidence: 4
+Prediction: 11011 Confidence: 0
+Prediction: 11111 Confidence: 0
+Prediction: 100 Confidence: 1
+Prediction: 111100 Confidence: 0
+Prediction: 111111 Confidence: 0
+Prediction: 111110 Confidence: 0
+Pattern: 1001 Prediction: 11011 Triggers: 213875 Usefulness: 0
+Prediction: 110 Confidence: 33
+Prediction: 110100 Confidence: 31
+Prediction: 0 Confidence: 85
+Prediction: 101110 Confidence: 30
+Prediction: 111111 Confidence: 60
+Prediction: 110110 Confidence: 27
+Prediction: 10000 Confidence: 33
+Prediction: 111100 Confidence: 32
+Prediction: 11011 Confidence: 87
+Prediction: 1111 Confidence: 27
+Prediction: 110011 Confidence: 25
+Prediction: 11111 Confidence: 42
+Prediction: 100000 Confidence: 35
+Prediction: 110000 Confidence: 29
+Prediction: 111000 Confidence: 30
+Prediction: 10100 Confidence: 25
+Pattern: 1010 Prediction: 0 Triggers: 229281 Usefulness: 0
+Prediction: 1000 Confidence: 2
+Prediction: 110000 Confidence: 3
+Prediction: 110100 Confidence: 3
+Prediction: 111100 Confidence: 3
+Prediction: 11000 Confidence: 3
+Prediction: 100000 Confidence: 1
+Prediction: 100 Confidence: 4
+Prediction: 101000 Confidence: 3
+Prediction: 11110 Confidence: 1
+Prediction: 111110 Confidence: 3
+Prediction: 111111 Confidence: 3
+Prediction: 10000 Confidence: 3
+Prediction: 1111 Confidence: 12
+Prediction: 0 Confidence: 53
+Prediction: 11100 Confidence: 1
+Prediction: 111000 Confidence: 3
+Pattern: 1011 Prediction: 111111 Triggers: 305338 Usefulness: 0
+Prediction: 100111 Confidence: 13
+Prediction: 111011 Confidence: 13
+Prediction: 111100 Confidence: 25
+Prediction: 111110 Confidence: 44
+Prediction: 11011 Confidence: 14
+Prediction: 111000 Confidence: 24
+Prediction: 111010 Confidence: 13
+Prediction: 100000 Confidence: 62
+Prediction: 0 Confidence: 83
+Prediction: 11000 Confidence: 13
+Prediction: 110000 Confidence: 64
+Prediction: 111101 Confidence: 33
+Prediction: 11100 Confidence: 15
+Prediction: 11110 Confidence: 18
+Prediction: 111111 Confidence: 96
+Prediction: 11111 Confidence: 38
+Pattern: 1100 Prediction: 0 Triggers: 1551561 Usefulness: 0
+Prediction: 0 Confidence: 67
+Prediction: 110100 Confidence: 12
+Prediction: 110101 Confidence: 12
+Prediction: 111101 Confidence: 12
+Prediction: 11101 Confidence: 3
+Prediction: 10000 Confidence: 25
+Prediction: 100 Confidence: 0
+Prediction: 101100 Confidence: 0
+Prediction: 111 Confidence: 0
+Prediction: 101000 Confidence: 0
+Prediction: 100111 Confidence: 0
+Prediction: 10 Confidence: 1
+Prediction: 111110 Confidence: 0
+Prediction: 100010 Confidence: 0
+Prediction: 111111 Confidence: 4
+Prediction: 110010 Confidence: 0
+Pattern: 1101 Prediction: 0 Triggers: 398361 Usefulness: 0
+Prediction: 110111 Confidence: 13
+Prediction: 110110 Confidence: 17
+Prediction: 10000 Confidence: 32
+Prediction: 100 Confidence: 20
+Prediction: 111000 Confidence: 16
+Prediction: 101111 Confidence: 31
+Prediction: 110000 Confidence: 21
+Prediction: 0 Confidence: 67
+Prediction: 111111 Confidence: 63
+Prediction: 11000 Confidence: 13
+Prediction: 111100 Confidence: 9
+Prediction: 100000 Confidence: 22
+Prediction: 101110 Confidence: 13
+Prediction: 110011 Confidence: 9
+Prediction: 111110 Confidence: 12
+Prediction: 111 Confidence: 12
+Pattern: 1110 Prediction: 0 Triggers: 1099772 Usefulness: 0
+Prediction: 10000 Confidence: 2
+Prediction: 0 Confidence: 60
+Prediction: 111 Confidence: 2
+Prediction: 10011 Confidence: 1
+Prediction: 111011 Confidence: 2
+Prediction: 111100 Confidence: 6
+Prediction: 111110 Confidence: 5
+Prediction: 11101 Confidence: 3
+Prediction: 100111 Confidence: 28
+Prediction: 110111 Confidence: 32
+Prediction: 100000 Confidence: 9
+Prediction: 1000 Confidence: 0
+Prediction: 11111 Confidence: 0
+Prediction: 110000 Confidence: 1
+Prediction: 111111 Confidence: 5
+Prediction: 111000 Confidence: 2
+Pattern: 1111 Prediction: 111111 Triggers: 7837156 Usefulness: 0
+Prediction: 11001 Confidence: 1
+Prediction: 10000 Confidence: 0
+Prediction: 110001 Confidence: 0
+Prediction: 111001 Confidence: 1
+Prediction: 110100 Confidence: 11
+Prediction: 100000 Confidence: 2
+Prediction: 110110 Confidence: 19
+Prediction: 110111 Confidence: 7
+Prediction: 111010 Confidence: 0
+Prediction: 0 Confidence: 3
+Prediction: 110000 Confidence: 1
+Prediction: 111000 Confidence: 3
+Prediction: 111100 Confidence: 1
+Prediction: 111111 Confidence: 70
+Prediction: 110011 Confidence: 0
+Prediction: 111110 Confidence: 7
+Pattern: 10000 Prediction: 0 Triggers: 3305456 Usefulness: 0
+Prediction: 0 Confidence: 63
+Prediction: 101000 Confidence: 0
+Prediction: 11100 Confidence: 0
+Prediction: 100000 Confidence: 0
+Prediction: 111110 Confidence: 0
+Prediction: 110000 Confidence: 0
+Prediction: 100 Confidence: 0
+Prediction: 110011 Confidence: 0
+Prediction: 1111 Confidence: 0
+Prediction: 11111 Confidence: 0
+Prediction: 11101 Confidence: 0
+Prediction: 111 Confidence: 0
+Prediction: 1100 Confidence: 0
+Prediction: 1000 Confidence: 0
+Prediction: 1110 Confidence: 0
+Prediction: 111111 Confidence: 0
+Pattern: 10001 Prediction: 0 Triggers: 222953 Usefulness: 0
+Prediction: 100110 Confidence: 29
+Prediction: 110000 Confidence: 7
+Prediction: 111111 Confidence: 54
+Prediction: 111100 Confidence: 33
+Prediction: 100000 Confidence: 29
+Prediction: 10000 Confidence: 16
+Prediction: 10100 Confidence: 12
+Prediction: 111110 Confidence: 21
+Prediction: 111000 Confidence: 17
+Prediction: 101111 Confidence: 34
+Prediction: 1111 Confidence: 16
+Prediction: 10 Confidence: 10
+Prediction: 110111 Confidence: 13
+Prediction: 0 Confidence: 68
+Prediction: 11 Confidence: 7
+Prediction: 100 Confidence: 25
+Pattern: 10010 Prediction: 0 Triggers: 175627 Usefulness: 0
+Prediction: 0 Confidence: 87
+Prediction: 110110 Confidence: 6
+Prediction: 110000 Confidence: 3
+Prediction: 110111 Confidence: 21
+Prediction: 10000 Confidence: 6
+Prediction: 1001 Confidence: 27
+Prediction: 1100 Confidence: 6
+Prediction: 1101 Confidence: 34
+Prediction: 111 Confidence: 3
+Prediction: 1111 Confidence: 19
+Prediction: 101000 Confidence: 7
+Prediction: 100000 Confidence: 17
+Prediction: 11111 Confidence: 7
+Prediction: 111111 Confidence: 30
+Prediction: 10 Confidence: 13
+Prediction: 1000 Confidence: 8
+Pattern: 10011 Prediction: 101110 Triggers: 215481 Usefulness: 0
+Prediction: 100111 Confidence: 12
+Prediction: 111111 Confidence: 50
+Prediction: 101100 Confidence: 20
+Prediction: 111100 Confidence: 10
+Prediction: 101110 Confidence: 56
+Prediction: 111001 Confidence: 27
+Prediction: 111 Confidence: 12
+Prediction: 0 Confidence: 19
+Prediction: 10100 Confidence: 25
+Prediction: 11100 Confidence: 36
+Prediction: 110000 Confidence: 8
+Prediction: 100 Confidence: 25
+Prediction: 101000 Confidence: 24
+Prediction: 100000 Confidence: 16
+Prediction: 111110 Confidence: 25
+Prediction: 111000 Confidence: 8
+Pattern: 10100 Prediction: 0 Triggers: 477603 Usefulness: 0
+Prediction: 0 Confidence: 87
+Prediction: 10000 Confidence: 0
+Prediction: 111101 Confidence: 0
+Prediction: 11000 Confidence: 0
+Prediction: 10 Confidence: 12
+Prediction: 111000 Confidence: 0
+Prediction: 11 Confidence: 0
+Prediction: 111100 Confidence: 0
+Prediction: 11111 Confidence: 0
+Prediction: 111110 Confidence: 0
+Prediction: 111111 Confidence: 0
+Prediction: 110000 Confidence: 0
+Prediction: 101111 Confidence: 0
+Prediction: 111001 Confidence: 0
+Prediction: 111011 Confidence: 0
+Prediction: 100000 Confidence: 0
+Pattern: 10101 Prediction: 0 Triggers: 196097 Usefulness: 0
+Prediction: 11000 Confidence: 4
+Prediction: 111100 Confidence: 4
+Prediction: 100001 Confidence: 12
+Prediction: 110001 Confidence: 12
+Prediction: 1000 Confidence: 3
+Prediction: 10000 Confidence: 12
+Prediction: 111000 Confidence: 4
+Prediction: 110000 Confidence: 4
+Prediction: 101000 Confidence: 3
+Prediction: 111111 Confidence: 7
+Prediction: 101100 Confidence: 3
+Prediction: 100000 Confidence: 5
+Prediction: 111001 Confidence: 12
+Prediction: 111101 Confidence: 12
+Prediction: 0 Confidence: 66
+Prediction: 111010 Confidence: 14
+Pattern: 10110 Prediction: 0 Triggers: 180611 Usefulness: 0
+Prediction: 0 Confidence: 62
+Prediction: 11110 Confidence: 43
+Prediction: 111 Confidence: 14
+Prediction: 11000 Confidence: 5
+Prediction: 110011 Confidence: 3
+Prediction: 100000 Confidence: 9
+Prediction: 100100 Confidence: 3
+Prediction: 101000 Confidence: 8
+Prediction: 111000 Confidence: 4
+Prediction: 111110 Confidence: 4
+Prediction: 1000 Confidence: 3
+Prediction: 1100 Confidence: 6
+Prediction: 111100 Confidence: 5
+Prediction: 111111 Confidence: 20
+Prediction: 11100 Confidence: 7
+Prediction: 110111 Confidence: 7
+Pattern: 10111 Prediction: 111111 Triggers: 419424 Usefulness: 0
+Prediction: 10111 Confidence: 12
+Prediction: 101110 Confidence: 12
+Prediction: 111000 Confidence: 15
+Prediction: 110000 Confidence: 17
+Prediction: 110001 Confidence: 6
+Prediction: 111010 Confidence: 14
+Prediction: 101010 Confidence: 7
+Prediction: 111100 Confidence: 22
+Prediction: 111011 Confidence: 17
+Prediction: 111111 Confidence: 64
+Prediction: 100000 Confidence: 21
+Prediction: 0 Confidence: 24
+Prediction: 101000 Confidence: 11
+Prediction: 10000 Confidence: 14
+Prediction: 111101 Confidence: 7
+Prediction: 111110 Confidence: 11
+Pattern: 11000 Prediction: 0 Triggers: 2122674 Usefulness: 0
+Prediction: 0 Confidence: 52
+Prediction: 1000 Confidence: 0
+Prediction: 10000 Confidence: 0
+Prediction: 111011 Confidence: 0
+Prediction: 110110 Confidence: 0
+Prediction: 110111 Confidence: 0
+Prediction: 100000 Confidence: 0
+Prediction: 110000 Confidence: 0
+Prediction: 1100 Confidence: 0
+Prediction: 1110 Confidence: 0
+Prediction: 1111 Confidence: 0
+Prediction: 111 Confidence: 0
+Prediction: 11000 Confidence: 0
+Prediction: 101111 Confidence: 0
+Prediction: 1 Confidence: 0
+Prediction: 111111 Confidence: 0
+Pattern: 11001 Prediction: 0 Triggers: 308198 Usefulness: 0
+Prediction: 111000 Confidence: 47
+Prediction: 111 Confidence: 30
+Prediction: 110110 Confidence: 35
+Prediction: 111011 Confidence: 43
+Prediction: 100111 Confidence: 27
+Prediction: 11111 Confidence: 30
+Prediction: 111110 Confidence: 58
+Prediction: 11000 Confidence: 34
+Prediction: 1111 Confidence: 31
+Prediction: 100001 Confidence: 34
+Prediction: 100000 Confidence: 52
+Prediction: 111111 Confidence: 57
+Prediction: 10000 Confidence: 31
+Prediction: 110000 Confidence: 41
+Prediction: 0 Confidence: 77
+Prediction: 100100 Confidence: 30
+Pattern: 11010 Prediction: 0 Triggers: 252637 Usefulness: 0
+Prediction: 0 Confidence: 91
+Prediction: 110100 Confidence: 6
+Prediction: 1 Confidence: 30
+Prediction: 100000 Confidence: 42
+Prediction: 100 Confidence: 5
+Prediction: 111000 Confidence: 2
+Prediction: 110000 Confidence: 8
+Prediction: 110 Confidence: 3
+Prediction: 1111 Confidence: 25
+Prediction: 11 Confidence: 5
+Prediction: 10000 Confidence: 3
+Prediction: 10111 Confidence: 2
+Prediction: 100010 Confidence: 13
+Prediction: 1000 Confidence: 1
+Prediction: 111100 Confidence: 7
+Prediction: 10011 Confidence: 1
+Pattern: 11011 Prediction: 111111 Triggers: 408580 Usefulness: 0
+Prediction: 100000 Confidence: 23
+Prediction: 111100 Confidence: 16
+Prediction: 11 Confidence: 16
+Prediction: 101111 Confidence: 19
+Prediction: 0 Confidence: 38
+Prediction: 10000 Confidence: 17
+Prediction: 101100 Confidence: 17
+Prediction: 111111 Confidence: 55
+Prediction: 111001 Confidence: 14
+Prediction: 110000 Confidence: 20
+Prediction: 11100 Confidence: 13
+Prediction: 111000 Confidence: 32
+Prediction: 11111 Confidence: 15
+Prediction: 111101 Confidence: 15
+Prediction: 101110 Confidence: 13
+Prediction: 111110 Confidence: 28
+Pattern: 11100 Prediction: 0 Triggers: 1328674 Usefulness: 0
+Prediction: 10000 Confidence: 1
+Prediction: 0 Confidence: 91
+Prediction: 110111 Confidence: 0
+Prediction: 1110 Confidence: 0
+Prediction: 1 Confidence: 0
+Prediction: 101 Confidence: 0
+Prediction: 100000 Confidence: 0
+Prediction: 1111 Confidence: 0
+Prediction: 111011 Confidence: 1
+Prediction: 111111 Confidence: 1
+Prediction: 111000 Confidence: 0
+Prediction: 111110 Confidence: 0
+Prediction: 110110 Confidence: 0
+Prediction: 11111 Confidence: 0
+Prediction: 1100 Confidence: 0
+Prediction: 1101 Confidence: 0
+Pattern: 11101 Prediction: 0 Triggers: 427371 Usefulness: 0
+Prediction: 111011 Confidence: 15
+Prediction: 111111 Confidence: 59
+Prediction: 111100 Confidence: 32
+Prediction: 111110 Confidence: 25
+Prediction: 11111 Confidence: 22
+Prediction: 1111 Confidence: 28
+Prediction: 10000 Confidence: 16
+Prediction: 100 Confidence: 41
+Prediction: 11000 Confidence: 13
+Prediction: 101111 Confidence: 23
+Prediction: 100000 Confidence: 27
+Prediction: 11001 Confidence: 28
+Prediction: 111000 Confidence: 25
+Prediction: 110000 Confidence: 38
+Prediction: 0 Confidence: 90
+Prediction: 100100 Confidence: 17
+Pattern: 11110 Prediction: 0 Triggers: 1255158 Usefulness: 0
+Prediction: 0 Confidence: 62
+Prediction: 110100 Confidence: 19
+Prediction: 110110 Confidence: 16
+Prediction: 100000 Confidence: 5
+Prediction: 110000 Confidence: 4
+Prediction: 110111 Confidence: 22
+Prediction: 110010 Confidence: 13
+Prediction: 110011 Confidence: 15
+Prediction: 10000 Confidence: 0
+Prediction: 1110 Confidence: 0
+Prediction: 111000 Confidence: 0
+Prediction: 1000 Confidence: 1
+Prediction: 111 Confidence: 0
+Prediction: 11111 Confidence: 0
+Prediction: 101 Confidence: 3
+Prediction: 1101 Confidence: 3
+Pattern: 11111 Prediction: 111111 Triggers: 9051249 Usefulness: 0
+Prediction: 110110 Confidence: 9
+Prediction: 100000 Confidence: 2
+Prediction: 101010 Confidence: 0
+Prediction: 111000 Confidence: 1
+Prediction: 111110 Confidence: 5
+Prediction: 101110 Confidence: 0
+Prediction: 111011 Confidence: 0
+Prediction: 101111 Confidence: 0
+Prediction: 111100 Confidence: 2
+Prediction: 100010 Confidence: 0
+Prediction: 110000 Confidence: 3
+Prediction: 0 Confidence: 2
+Prediction: 110011 Confidence: 0
+Prediction: 111111 Confidence: 61
+Prediction: 110010 Confidence: 0
+Prediction: 110100 Confidence: 2
+Pattern: 100000 Prediction: 0 Triggers: 25835067 Usefulness: 0
+Prediction: 0 Confidence: 95
+Prediction: 100010 Confidence: 0
+Prediction: 1111 Confidence: 2
+Prediction: 11111 Confidence: 2
+Prediction: 111111 Confidence: 3
+Prediction: 11 Confidence: 0
+Prediction: 111 Confidence: 0
+Prediction: 11101 Confidence: 0
+Prediction: 111010 Confidence: 0
+Prediction: 1110 Confidence: 0
+Prediction: 110 Confidence: 0
+Prediction: 111011 Confidence: 0
+Prediction: 111110 Confidence: 0
+Prediction: 11110 Confidence: 0
+Prediction: 11000 Confidence: 0
+Prediction: 11100 Confidence: 0
+Pattern: 100001 Prediction: 111111 Triggers: 855270 Usefulness: 0
+Prediction: 110111 Confidence: 12
+Prediction: 101111 Confidence: 9
+Prediction: 111100 Confidence: 15
+Prediction: 11110 Confidence: 15
+Prediction: 111011 Confidence: 25
+Prediction: 111000 Confidence: 12
+Prediction: 101010 Confidence: 18
+Prediction: 11111 Confidence: 13
+Prediction: 111111 Confidence: 95
+Prediction: 101000 Confidence: 14
+Prediction: 10000 Confidence: 13
+Prediction: 110000 Confidence: 11
+Prediction: 0 Confidence: 26
+Prediction: 100000 Confidence: 11
+Prediction: 11100 Confidence: 13
+Prediction: 100110 Confidence: 6
+Pattern: 100010 Prediction: 0 Triggers: 463814 Usefulness: 0
+Prediction: 111111 Confidence: 3
+Prediction: 100 Confidence: 3
+Prediction: 111100 Confidence: 11
+Prediction: 11110 Confidence: 12
+Prediction: 111110 Confidence: 17
+Prediction: 10100 Confidence: 16
+Prediction: 10001 Confidence: 12
+Prediction: 1000 Confidence: 13
+Prediction: 110000 Confidence: 13
+Prediction: 11 Confidence: 8
+Prediction: 100000 Confidence: 3
+Prediction: 111 Confidence: 6
+Prediction: 11111 Confidence: 9
+Prediction: 11000 Confidence: 6
+Prediction: 0 Confidence: 79
+Prediction: 111000 Confidence: 7
+Pattern: 100011 Prediction: 111111 Triggers: 878180 Usefulness: 0
+Prediction: 111000 Confidence: 15
+Prediction: 111110 Confidence: 14
+Prediction: 110000 Confidence: 12
+Prediction: 101100 Confidence: 6
+Prediction: 10000 Confidence: 6
+Prediction: 1000 Confidence: 7
+Prediction: 0 Confidence: 16
+Prediction: 110110 Confidence: 16
+Prediction: 111100 Confidence: 7
+Prediction: 110001 Confidence: 6
+Prediction: 11011 Confidence: 13
+Prediction: 11111 Confidence: 17
+Prediction: 1100 Confidence: 6
+Prediction: 101111 Confidence: 14
+Prediction: 100100 Confidence: 6
+Prediction: 111111 Confidence: 53
+Pattern: 100100 Prediction: 0 Triggers: 656802 Usefulness: 0
+Prediction: 101000 Confidence: 6
+Prediction: 0 Confidence: 51
+Prediction: 100000 Confidence: 1
+Prediction: 11011 Confidence: 2
+Prediction: 1010 Confidence: 6
+Prediction: 110111 Confidence: 3
+Prediction: 101010 Confidence: 6
+Prediction: 111010 Confidence: 7
+Prediction: 11111 Confidence: 2
+Prediction: 11000 Confidence: 13
+Prediction: 111001 Confidence: 1
+Prediction: 111011 Confidence: 6
+Prediction: 100010 Confidence: 1
+Prediction: 1000 Confidence: 13
+Prediction: 111111 Confidence: 12
+Prediction: 100011 Confidence: 2
+Pattern: 100101 Prediction: 0 Triggers: 185084 Usefulness: 0
+Prediction: 111000 Confidence: 13
+Prediction: 110101 Confidence: 8
+Prediction: 101111 Confidence: 24
+Prediction: 100 Confidence: 18
+Prediction: 0 Confidence: 58
+Prediction: 111 Confidence: 12
+Prediction: 111111 Confidence: 44
+Prediction: 1110 Confidence: 16
+Prediction: 10000 Confidence: 12
+Prediction: 10100 Confidence: 14
+Prediction: 110000 Confidence: 13
+Prediction: 100000 Confidence: 14
+Prediction: 111100 Confidence: 12
+Prediction: 111110 Confidence: 14
+Prediction: 101101 Confidence: 14
+Prediction: 1111 Confidence: 15
+Pattern: 100110 Prediction: 0 Triggers: 410971 Usefulness: 0
+Prediction: 1000 Confidence: 25
+Prediction: 111100 Confidence: 17
+Prediction: 0 Confidence: 74
+Prediction: 111011 Confidence: 18
+Prediction: 111000 Confidence: 31
+Prediction: 110 Confidence: 15
+Prediction: 100000 Confidence: 17
+Prediction: 110000 Confidence: 15
+Prediction: 111111 Confidence: 35
+Prediction: 1110 Confidence: 26
+Prediction: 101000 Confidence: 26
+Prediction: 11110 Confidence: 25
+Prediction: 110111 Confidence: 29
+Prediction: 11111 Confidence: 32
+Prediction: 100 Confidence: 26
+Prediction: 11010 Confidence: 26
+Pattern: 100111 Prediction: 111111 Triggers: 1107002 Usefulness: 0
+Prediction: 111100 Confidence: 27
+Prediction: 0 Confidence: 22
+Prediction: 10000 Confidence: 28
+Prediction: 110000 Confidence: 15
+Prediction: 11110 Confidence: 12
+Prediction: 101000 Confidence: 13
+Prediction: 111111 Confidence: 65
+Prediction: 11111 Confidence: 16
+Prediction: 111001 Confidence: 7
+Prediction: 111101 Confidence: 7
+Prediction: 101100 Confidence: 16
+Prediction: 1110 Confidence: 6
+Prediction: 101101 Confidence: 30
+Prediction: 111110 Confidence: 24
+Prediction: 100000 Confidence: 20
+Prediction: 111000 Confidence: 19
+Pattern: 101000 Prediction: 0 Triggers: 2051203 Usefulness: 0
+Prediction: 0 Confidence: 64
+Prediction: 100010 Confidence: 12
+Prediction: 100000 Confidence: 0
+Prediction: 110000 Confidence: 0
+Prediction: 100001 Confidence: 0
+Prediction: 101 Confidence: 0
+Prediction: 11000 Confidence: 0
+Prediction: 111100 Confidence: 0
+Prediction: 11111 Confidence: 0
+Prediction: 111110 Confidence: 0
+Prediction: 111 Confidence: 0
+Prediction: 1000 Confidence: 0
+Prediction: 100 Confidence: 1
+Prediction: 111000 Confidence: 0
+Prediction: 111111 Confidence: 0
+Prediction: 10000 Confidence: 0
+Pattern: 101001 Prediction: 110111 Triggers: 185980 Usefulness: 0
+Prediction: 110100 Confidence: 17
+Prediction: 110110 Confidence: 17
+Prediction: 100000 Confidence: 9
+Prediction: 11111 Confidence: 10
+Prediction: 110000 Confidence: 11
+Prediction: 110111 Confidence: 56
+Prediction: 111 Confidence: 39
+Prediction: 100010 Confidence: 25
+Prediction: 101110 Confidence: 31
+Prediction: 111111 Confidence: 22
+Prediction: 111000 Confidence: 8
+Prediction: 111110 Confidence: 9
+Prediction: 0 Confidence: 53
+Prediction: 101010 Confidence: 25
+Prediction: 111100 Confidence: 7
+Prediction: 10000 Confidence: 8
+Pattern: 101010 Prediction: 0 Triggers: 477601 Usefulness: 0
+Prediction: 1000 Confidence: 0
+Prediction: 1111 Confidence: 12
+Prediction: 101000 Confidence: 6
+Prediction: 100000 Confidence: 41
+Prediction: 11110 Confidence: 0
+Prediction: 101100 Confidence: 1
+Prediction: 110000 Confidence: 0
+Prediction: 111100 Confidence: 6
+Prediction: 111101 Confidence: 1
+Prediction: 1 Confidence: 19
+Prediction: 1011 Confidence: 0
+Prediction: 11101 Confidence: 0
+Prediction: 101010 Confidence: 0
+Prediction: 10000 Confidence: 0
+Prediction: 0 Confidence: 90
+Prediction: 100100 Confidence: 0
+Pattern: 101011 Prediction: 111111 Triggers: 301804 Usefulness: 0
+Prediction: 110000 Confidence: 23
+Prediction: 10000 Confidence: 24
+Prediction: 111111 Confidence: 68
+Prediction: 1110 Confidence: 28
+Prediction: 0 Confidence: 57
+Prediction: 111010 Confidence: 20
+Prediction: 11111 Confidence: 18
+Prediction: 100000 Confidence: 24
+Prediction: 111100 Confidence: 26
+Prediction: 1100 Confidence: 25
+Prediction: 101000 Confidence: 28
+Prediction: 110100 Confidence: 22
+Prediction: 111000 Confidence: 23
+Prediction: 1111 Confidence: 43
+Prediction: 10100 Confidence: 17
+Prediction: 111110 Confidence: 23
+Pattern: 101100 Prediction: 0 Triggers: 912024 Usefulness: 0
+Prediction: 0 Confidence: 51
+Prediction: 111000 Confidence: 1
+Prediction: 110000 Confidence: 0
+Prediction: 110 Confidence: 1
+Prediction: 11011 Confidence: 3
+Prediction: 111100 Confidence: 9
+Prediction: 1000 Confidence: 3
+Prediction: 1101 Confidence: 0
+Prediction: 1111 Confidence: 0
+Prediction: 111101 Confidence: 11
+Prediction: 100011 Confidence: 6
+Prediction: 110011 Confidence: 7
+Prediction: 111111 Confidence: 0
+Prediction: 10000 Confidence: 0
+Prediction: 100000 Confidence: 0
+Prediction: 11000 Confidence: 0
+Pattern: 101101 Prediction: 0 Triggers: 272462 Usefulness: 0
+Prediction: 110011 Confidence: 8
+Prediction: 110000 Confidence: 22
+Prediction: 111000 Confidence: 18
+Prediction: 0 Confidence: 55
+Prediction: 111100 Confidence: 47
+Prediction: 10001 Confidence: 13
+Prediction: 100110 Confidence: 13
+Prediction: 111110 Confidence: 9
+Prediction: 10000 Confidence: 10
+Prediction: 110111 Confidence: 19
+Prediction: 1 Confidence: 14
+Prediction: 100001 Confidence: 16
+Prediction: 111010 Confidence: 12
+Prediction: 101000 Confidence: 17
+Prediction: 111111 Confidence: 52
+Prediction: 100000 Confidence: 34
+Pattern: 101110 Prediction: 0 Triggers: 673082 Usefulness: 0
+Prediction: 0 Confidence: 77
+Prediction: 11101 Confidence: 13
+Prediction: 10 Confidence: 6
+Prediction: 101000 Confidence: 8
+Prediction: 1000 Confidence: 13
+Prediction: 111111 Confidence: 16
+Prediction: 11111 Confidence: 12
+Prediction: 110010 Confidence: 8
+Prediction: 110 Confidence: 9
+Prediction: 100000 Confidence: 9
+Prediction: 101100 Confidence: 14
+Prediction: 110000 Confidence: 9
+Prediction: 111100 Confidence: 6
+Prediction: 111110 Confidence: 10
+Prediction: 111000 Confidence: 16
+Prediction: 10000 Confidence: 6
+Pattern: 101111 Prediction: 111111 Triggers: 2206631 Usefulness: 0
+Prediction: 100000 Confidence: 17
+Prediction: 111011 Confidence: 2
+Prediction: 11011 Confidence: 7
+Prediction: 111101 Confidence: 27
+Prediction: 110111 Confidence: 14
+Prediction: 111000 Confidence: 19
+Prediction: 111010 Confidence: 2
+Prediction: 111111 Confidence: 74
+Prediction: 111110 Confidence: 18
+Prediction: 0 Confidence: 14
+Prediction: 10000 Confidence: 3
+Prediction: 110101 Confidence: 12
+Prediction: 110000 Confidence: 15
+Prediction: 110001 Confidence: 13
+Prediction: 111001 Confidence: 17
+Prediction: 111100 Confidence: 28
+Pattern: 110000 Prediction: 0 Triggers: 24455497 Usefulness: 0
+Prediction: 0 Confidence: 59
+Prediction: 10001 Confidence: 0
+Prediction: 110000 Confidence: 0
+Prediction: 111000 Confidence: 0
+Prediction: 100000 Confidence: 1
+Prediction: 1 Confidence: 0
+Prediction: 11 Confidence: 1
+Prediction: 111 Confidence: 1
+Prediction: 11111 Confidence: 2
+Prediction: 10111 Confidence: 0
+Prediction: 100 Confidence: 0
+Prediction: 111111 Confidence: 0
+Prediction: 1100 Confidence: 0
+Prediction: 1110 Confidence: 0
+Prediction: 1111 Confidence: 0
+Prediction: 11110 Confidence: 0
+Pattern: 110001 Prediction: 111111 Triggers: 1128141 Usefulness: 0
+Prediction: 111011 Confidence: 16
+Prediction: 100000 Confidence: 31
+Prediction: 11110 Confidence: 12
+Prediction: 11000 Confidence: 13
+Prediction: 111000 Confidence: 12
+Prediction: 0 Confidence: 38
+Prediction: 11100 Confidence: 13
+Prediction: 111111 Confidence: 66
+Prediction: 101101 Confidence: 13
+Prediction: 101111 Confidence: 17
+Prediction: 1111 Confidence: 18
+Prediction: 111100 Confidence: 15
+Prediction: 10000 Confidence: 14
+Prediction: 110111 Confidence: 15
+Prediction: 11111 Confidence: 13
+Prediction: 111110 Confidence: 12
+Pattern: 110010 Prediction: 0 Triggers: 695425 Usefulness: 0
+Prediction: 101 Confidence: 12
+Prediction: 0 Confidence: 82
+Prediction: 11011 Confidence: 7
+Prediction: 100000 Confidence: 33
+Prediction: 111110 Confidence: 12
+Prediction: 10101 Confidence: 12
+Prediction: 10001 Confidence: 4
+Prediction: 111111 Confidence: 14
+Prediction: 10100 Confidence: 6
+Prediction: 11111 Confidence: 12
+Prediction: 11101 Confidence: 17
+Prediction: 100 Confidence: 13
+Prediction: 110000 Confidence: 25
+Prediction: 111000 Confidence: 12
+Prediction: 1100 Confidence: 26
+Prediction: 100011 Confidence: 3
+Pattern: 110011 Prediction: 111111 Triggers: 1305034 Usefulness: 0
+Prediction: 1100 Confidence: 25
+Prediction: 1101 Confidence: 26
+Prediction: 101111 Confidence: 21
+Prediction: 11111 Confidence: 21
+Prediction: 111000 Confidence: 26
+Prediction: 10000 Confidence: 25
+Prediction: 0 Confidence: 40
+Prediction: 110110 Confidence: 34
+Prediction: 111110 Confidence: 34
+Prediction: 110000 Confidence: 20
+Prediction: 1111 Confidence: 33
+Prediction: 101000 Confidence: 25
+Prediction: 111111 Confidence: 82
+Prediction: 100000 Confidence: 31
+Prediction: 111100 Confidence: 19
+Prediction: 10100 Confidence: 25
+Pattern: 110100 Prediction: 0 Triggers: 1865572 Usefulness: 0
+Prediction: 0 Confidence: 58
+Prediction: 111000 Confidence: 12
+Prediction: 10001 Confidence: 12
+Prediction: 111010 Confidence: 1
+Prediction: 110001 Confidence: 12
+Prediction: 110101 Confidence: 12
+Prediction: 110111 Confidence: 15
+Prediction: 110 Confidence: 0
+Prediction: 10 Confidence: 0
+Prediction: 100011 Confidence: 0
+Prediction: 100 Confidence: 0
+Prediction: 11000 Confidence: 0
+Prediction: 111111 Confidence: 5
+Prediction: 111 Confidence: 0
+Prediction: 11111 Confidence: 0
+Prediction: 1000 Confidence: 0
+Pattern: 110101 Prediction: 0 Triggers: 611511 Usefulness: 0
+Prediction: 10100 Confidence: 15
+Prediction: 111111 Confidence: 27
+Prediction: 101111 Confidence: 9
+Prediction: 111100 Confidence: 25
+Prediction: 110101 Confidence: 12
+Prediction: 111110 Confidence: 13
+Prediction: 111011 Confidence: 12
+Prediction: 101000 Confidence: 13
+Prediction: 0 Confidence: 61
+Prediction: 110100 Confidence: 14
+Prediction: 111 Confidence: 12
+Prediction: 100111 Confidence: 23
+Prediction: 100001 Confidence: 14
+Prediction: 10000 Confidence: 22
+Prediction: 100110 Confidence: 12
+Prediction: 100000 Confidence: 29
+Pattern: 110110 Prediction: 0 Triggers: 1044672 Usefulness: 0
+Prediction: 10001 Confidence: 6
+Prediction: 11110 Confidence: 9
+Prediction: 11 Confidence: 1
+Prediction: 1101 Confidence: 3
+Prediction: 111100 Confidence: 8
+Prediction: 100000 Confidence: 4
+Prediction: 111101 Confidence: 3
+Prediction: 10000 Confidence: 1
+Prediction: 11001 Confidence: 7
+Prediction: 111111 Confidence: 12
+Prediction: 110000 Confidence: 3
+Prediction: 111110 Confidence: 9
+Prediction: 11000 Confidence: 0
+Prediction: 100 Confidence: 3
+Prediction: 0 Confidence: 59
+Prediction: 111000 Confidence: 3
+Pattern: 110111 Prediction: 111111 Triggers: 2475011 Usefulness: 0
+Prediction: 1111 Confidence: 1
+Prediction: 0 Confidence: 37
+Prediction: 100 Confidence: 3
+Prediction: 111100 Confidence: 19
+Prediction: 10110 Confidence: 7
+Prediction: 110000 Confidence: 13
+Prediction: 11111 Confidence: 6
+Prediction: 100000 Confidence: 11
+Prediction: 11100 Confidence: 2
+Prediction: 111111 Confidence: 65
+Prediction: 111101 Confidence: 1
+Prediction: 101000 Confidence: 1
+Prediction: 101101 Confidence: 7
+Prediction: 111000 Confidence: 9
+Prediction: 111110 Confidence: 20
+Prediction: 1110 Confidence: 1
+Pattern: 111000 Prediction: 0 Triggers: 24262338 Usefulness: 0
+Prediction: 0 Confidence: 96
+Prediction: 11000 Confidence: 0
+Prediction: 11100 Confidence: 0
+Prediction: 1000 Confidence: 1
+Prediction: 10000 Confidence: 5
+Prediction: 100000 Confidence: 4
+Prediction: 1 Confidence: 4
+Prediction: 11 Confidence: 4
+Prediction: 111 Confidence: 4
+Prediction: 1111 Confidence: 7
+Prediction: 110000 Confidence: 0
+Prediction: 10001 Confidence: 0
+Prediction: 111100 Confidence: 0
+Prediction: 11111 Confidence: 1
+Prediction: 111111 Confidence: 3
+Prediction: 111110 Confidence: 0
+Pattern: 111001 Prediction: 111111 Triggers: 1706348 Usefulness: 0
+Prediction: 10 Confidence: 13
+Prediction: 11111 Confidence: 14
+Prediction: 0 Confidence: 57
+Prediction: 111000 Confidence: 14
+Prediction: 110100 Confidence: 25
+Prediction: 101101 Confidence: 29
+Prediction: 101111 Confidence: 20
+Prediction: 100000 Confidence: 28
+Prediction: 110111 Confidence: 26
+Prediction: 111100 Confidence: 26
+Prediction: 111110 Confidence: 16
+Prediction: 111111 Confidence: 95
+Prediction: 10000 Confidence: 17
+Prediction: 100111 Confidence: 29
+Prediction: 111011 Confidence: 50
+Prediction: 110000 Confidence: 31
+Pattern: 111010 Prediction: 0 Triggers: 2311267 Usefulness: 0
+Prediction: 100000 Confidence: 6
+Prediction: 110011 Confidence: 24
+Prediction: 11000 Confidence: 25
+Prediction: 11010 Confidence: 25
+Prediction: 11011 Confidence: 31
+Prediction: 111111 Confidence: 8
+Prediction: 10000 Confidence: 3
+Prediction: 1000 Confidence: 1
+Prediction: 11111 Confidence: 35
+Prediction: 1100 Confidence: 0
+Prediction: 111110 Confidence: 0
+Prediction: 11100 Confidence: 1
+Prediction: 11101 Confidence: 3
+Prediction: 110000 Confidence: 5
+Prediction: 0 Confidence: 74
+Prediction: 1111 Confidence: 0
+Pattern: 111011 Prediction: 0 Triggers: 3141766 Usefulness: 0
+Prediction: 111000 Confidence: 12
+Prediction: 100000 Confidence: 34
+Prediction: 0 Confidence: 62
+Prediction: 110000 Confidence: 6
+Prediction: 1100 Confidence: 15
+Prediction: 111111 Confidence: 61
+Prediction: 1111 Confidence: 4
+Prediction: 11100 Confidence: 4
+Prediction: 11110 Confidence: 4
+Prediction: 111100 Confidence: 18
+Prediction: 1000 Confidence: 13
+Prediction: 110110 Confidence: 3
+Prediction: 11111 Confidence: 12
+Prediction: 11000 Confidence: 4
+Prediction: 101111 Confidence: 6
+Prediction: 111110 Confidence: 18
+Pattern: 111100 Prediction: 0 Triggers: 25372044 Usefulness: 0
+Prediction: 0 Confidence: 66
+Prediction: 1111 Confidence: 3
+Prediction: 11111 Confidence: 9
+Prediction: 1000 Confidence: 5
+Prediction: 100 Confidence: 1
+Prediction: 10000 Confidence: 4
+Prediction: 111010 Confidence: 0
+Prediction: 100000 Confidence: 4
+Prediction: 101000 Confidence: 3
+Prediction: 1 Confidence: 4
+Prediction: 111111 Confidence: 1
+Prediction: 11 Confidence: 4
+Prediction: 11000 Confidence: 0
+Prediction: 110000 Confidence: 0
+Prediction: 111000 Confidence: 0
+Prediction: 111 Confidence: 5
+Pattern: 111101 Prediction: 100000 Triggers: 5109820 Usefulness: 0
+Prediction: 101111 Confidence: 18
+Prediction: 110000 Confidence: 34
+Prediction: 1110 Confidence: 14
+Prediction: 1111 Confidence: 15
+Prediction: 110111 Confidence: 14
+Prediction: 111110 Confidence: 17
+Prediction: 1101 Confidence: 16
+Prediction: 100000 Confidence: 66
+Prediction: 11000 Confidence: 14
+Prediction: 111000 Confidence: 15
+Prediction: 111111 Confidence: 59
+Prediction: 0 Confidence: 52
+Prediction: 100100 Confidence: 13
+Prediction: 100110 Confidence: 15
+Prediction: 10000 Confidence: 16
+Prediction: 100 Confidence: 12
+Pattern: 111110 Prediction: 0 Triggers: 29971197 Usefulness: 0
+Prediction: 100000 Confidence: 10
+Prediction: 1111 Confidence: 6
+Prediction: 11000 Confidence: 3
+Prediction: 111000 Confidence: 7
+Prediction: 1100 Confidence: 3
+Prediction: 11100 Confidence: 3
+Prediction: 1 Confidence: 4
+Prediction: 11 Confidence: 5
+Prediction: 11111 Confidence: 4
+Prediction: 100 Confidence: 5
+Prediction: 1000 Confidence: 4
+Prediction: 0 Confidence: 62
+Prediction: 10000 Confidence: 4
+Prediction: 110000 Confidence: 17
+Prediction: 111111 Confidence: 9
+Prediction: 101000 Confidence: 3
+Pattern: 111111 Prediction: 111111 Triggers: 538872282 Usefulness: 0
+Prediction: 111001 Confidence: 0
+Prediction: 111100 Confidence: 12
+Prediction: 110010 Confidence: 0
+Prediction: 111111 Confidence: 89
+Prediction: 111000 Confidence: 12
+Prediction: 110000 Confidence: 12
+Prediction: 100100 Confidence: 0
+Prediction: 1000 Confidence: 0
+Prediction: 111101 Confidence: 0
+Prediction: 100000 Confidence: 12
+Prediction: 111010 Confidence: 0
+Prediction: 110100 Confidence: 0
+Prediction: 111110 Confidence: 12
+Prediction: 0 Confidence: 12
+Prediction: 101000 Confidence: 0
+Prediction: 10000 Confidence: 0

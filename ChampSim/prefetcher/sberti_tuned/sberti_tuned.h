@@ -118,8 +118,8 @@ private:
   uint64_t l1d_ip_table[L1D_IP_TABLE_ENTRIES];
 
   // --- SMART STRIDE DATA ---
-  static const int STRIDE_SETS = 1;
-  static const int STRIDE_WAYS = 256;
+  static const int STRIDE_SETS = 64;
+  static const int STRIDE_WAYS = 4;
   static const int STRIDE_MAX_CONF = 3;
   static const int STRIDE_MAX_DEPTH = 16;
   static const int BLOCK_SIZE = 64;
@@ -171,6 +171,9 @@ private:
   void stride_initialize();
   void stride_operate(uint64_t addr, uint64_t ip, uint8_t cache_hit, bool useful_prefetch, uint64_t current_cycle, uint32_t metadata_in);
   uint64_t strideHashPc(uint64_t pc);
+
+  // --- NEXT LINE FUNCTIONS ---
+  void next_line_operate(uint64_t addr, uint64_t ip, uint8_t cache_hit, bool useful_prefetch, uint64_t current_cycle, uint32_t metadata_in);
 
   // --- SHARED HELPER FUNCTIONS ---
   void addRecentPrefetch(uint64_t addr);

@@ -9,7 +9,7 @@
 #define PC_PATH_HISTORY_SIZE (4)
 
 // (Sizes summarized above)
-#define HISTORY_TABLE_SETS (48)
+#define HISTORY_TABLE_SETS (64)
 #define HISTORY_TABLE_WAYS (32)
 
 // Hash Function

@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "/home/hide/ACALab/Shared/champsim-lab/pin/source/launcher"
+    "cmake.sourceDirectory": "/home/hide/ACALab/Shared/champsim-lab/pin/source/launcher",
+    "python.analysis.autoImportCompletions": true
 }

@@ -47,8 +47,8 @@ namespace berti_space
   # define BERTI_TABLE_DELTA_SIZE       (16)
   
   // HISTORY
-  # define HISTORY_TABLE_SETS           (8)
-  # define HISTORY_TABLE_WAYS           (16)
+  # define HISTORY_TABLE_SETS           (64)
+  # define HISTORY_TABLE_WAYS           (4)
 
   // Hash Function
   //#define HASH_FN

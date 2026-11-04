@@ -530,6 +530,16 @@ void sberti_tuned::stride_operate(uint64_t addr, uint64_t ip, uint8_t cache_hit,
     }
 }
 
+// =====================================================================
+// NEXT LINE IMPLEMENTATION
+// =====================================================================
+
+void sberti_tuned::next_line_operate(uint64_t addr, uint64_t ip, uint8_t cache_hit, bool useful_prefetch, uint64_t current_cycle, uint32_t metadata_in) {
+    if (cache_hit == 0) {
+        uint64_t pf_addr = addr + BLOCK_SIZE;
+        issue_prefetch(champsim::address{pf_addr}, ip, metadata_in);
+    }
+}
 
 // =====================================================================
 // MAIN INTERFACE
@@ -754,7 +764,8 @@ uint32_t sberti_tuned::prefetcher_cache_operate(champsim::address address, champ
   SKIP_BERTI:;
 
   // Standalone Execution: Run Smart Stride logic on every access (Hit/Miss)
-  stride_operate(addr, ip, cache_hit, useful_prefetch, current_core_cycle, metadata_in);
+  // stride_operate(addr, ip, cache_hit, useful_prefetch, current_core_cycle, metadata_in);
+  next_line_operate(addr, ip, cache_hit, useful_prefetch, current_core_cycle, metadata_in);
 
   return metadata_in;
 }

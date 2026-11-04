@@ -114,8 +114,8 @@ private:
   uint64_t l1d_ip_table[L1D_IP_TABLE_ENTRIES];
 
   // --- AMPM DATA ---
-  static const int AMPM_SETS = 1;
-  static const int AMPM_WAYS = 256;
+  static const int AMPM_SETS = 64;
+  static const int AMPM_WAYS = 4;
   static const int AMPM_MAX_STRIDE = 16;
   AMPMEntry ampm_table[AMPM_SETS][AMPM_WAYS];
 
